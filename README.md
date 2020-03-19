@@ -12,7 +12,7 @@ __NOTE Github is not neccesary for you to learn python. But it will be helpful t
 
 The first step is to make a github account: https://github.com/join?source=header-home
 
-And then follow some bioinformatitians:
+And then follow some bioinformatians:
 - https://github.com/BenLangmead
 - https://github.com/johanneskoester
 - https://github.com/dcjones
@@ -43,7 +43,7 @@ Install: https://docs.python-guide.org/starting/install3/osx/
 
 __NOTE Pipenv is not a neccesary tool, but like github it will avoid some pains in the future. You can ignore it for now since it is not neccesary but I find it important to know that it exists__
 
-Pipenv is a tool to make each project you work on have different libraries python libraries. Sometimes you can have two libraries. Say csv-parser and csv-parser-3000 and they both use a different common library called dictionary-handler-2000. If you install both csv libraries at the system level they will both be stepping over each installing the different versions of disctionary-handler-2000. It is not strictly neccesary but I highly recommend it. You can start
+Pipenv is a tool to make each project you work on have different libraries python libraries. Sometimes you can have two libraries. Say `csv-parser` and `csv-parser-3000` and they both use a different common library called `dictionary-handler-2000` but different versions. If you install both csv libraries at the system level they will both be stepping over each installing the different versions of `dictionary-handler-2000`. It is not strictly neccesary but I highly recommend it.
 
 https://pipenv.readthedocs.io/en/latest/#install-pipenv-today
 
@@ -87,11 +87,11 @@ That website has a good list of challanges. It will help you get better with pyt
 
 ## More advanced topics and for you to get started on your own
 
-https://github.com/danielecook/Awesome-Bioinformatics
+ - https://github.com/danielecook/Awesome-Bioinformatics
 
-https://github.com/ossu/bioinformatics
+ - https://github.com/ossu/bioinformatics
 
-https://github.com/jtoy/awesome-tensorflow
+ - https://github.com/jtoy/awesome-tensorflow
 
 ## Books 
 

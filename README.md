@@ -1,29 +1,32 @@
 # Intro to python bio
 
-This document assumes you have no experience with python or the commandline and will hopefully get you up to speed. To get started with the nitty gritty go to: [Your first program!](#your-first-program!)
+This document assumes you have no experience with python or the commandline and will hopefully get you up to speed. To get started with the nitty gritty go to: [Your first program!](#your-first-program).
 
 ## Why python?
 
-Why python and not R? I think they are both great! They have incredibly strong support in bioinformatics. The only advantage I see with python is that you can use it for other programming areas that R might not be as good at. Python also has a stronger Machine Learning support.
+Why python and not R? I think they are both great! They have incredibly strong support in bioinformatics. The only advantage I see with python is that you can use it for other programming areas that R might not be as good at such as machine learning.
 
 ## Github
 
-__NOTE Github is not neccesary for you to learn python. But it will be helpful tool when you are working with more than two people.__
+__NOTE Github is not neccesary for you to learn python. But it will be helpful tool when you are working with more than two people. You can skip this part__
 
 The first step is to make a github account: https://github.com/join?source=header-home
 
 And then follow some bioinformatitians:
-https://github.com/BenLangmead
-https://github.com/johanneskoester
-https://github.com/dcjones
-https://github.com/sjackman
+- https://github.com/BenLangmead
+- https://github.com/johanneskoester
+- https://github.com/dcjones
+- https://github.com/sjackman
 
-Following people allows you to  discover what they like and you might something interestin.
+Following people allows you to  discover what they like and you might something interesting.
 
 You should also download https://desktop.github.com/
 
 
-## Programming environment
+Why git?: 
+- https://programminghistorian.org/en/lessons/retired/getting-started-with-github-desktop
+
+## Programming environment/Setup
 
 ### IDE (Integrated development environment)
 
@@ -54,17 +57,19 @@ Open VSCode. You can then open the terminal by pressing.
 Cmd+` (the backquot\backtick is usually on your Esc key)
 ```
 
+This will hopefully be the only way you interact with the terminal. 
+
 Type in the terminal:
 
 ```
-git init
-pipenv shell
+git init # not neccesary if you don't have git
+pipenv shell # not neccesary if you don't have pipenv
 pip install pybedtools
 ```
 
 Then you can write a program that opens your bed file and prints out all the sequences:
 
-```
+```python
 from pybedtools import BedTool
 genes = BedTool('bed_file.bed')
 
@@ -72,9 +77,10 @@ for gene in genes:
   print(gene)
 ```
 
+If you get stuck: https://www.pythoncheatsheet.org/
+
 ## Python Practice, practice, practice!
 
-https://www.pythoncheatsheet.org/
 https://exercism.io/tracks/python
 
 That website has a good list of challanges. It will help you get better with python over time and it is what I use.
@@ -82,9 +88,9 @@ That website has a good list of challanges. It will help you get better with pyt
 ## More advanced topics and for you to get started on your own
 
 https://github.com/danielecook/Awesome-Bioinformatics
+
 https://github.com/ossu/bioinformatics
 
-### ML
 https://github.com/jtoy/awesome-tensorflow
 
 ## Books 

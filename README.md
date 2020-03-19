@@ -1,6 +1,6 @@
 # Intro to python bio
 
-This document assumes you have no experience with python or the commandline and will hopefully get you up to speed. To get started with the nitty gritty go to: [Your first program!](#your-first-program).
+This document assumes you have no experience with python or the commandline and will hopefully get you up to speed. To get started with the nitty gritty go to: [Your first program!](#your-first-program) or read ["Introduction To Programming Using Python"](#books)
 
 ## Why python?
 
@@ -83,7 +83,7 @@ If you get stuck: https://www.pythoncheatsheet.org/
 
 https://exercism.io/tracks/python
 
-That website has a good list of challanges. It will help you get better with python over time and it is what I use.
+That website has a good list of challenges. It will help you get better with python over time and it is what I use.
 
 ## More advanced topics and for you to get started on your own
 

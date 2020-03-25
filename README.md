@@ -37,7 +37,7 @@ Install VSCode: https://code.visualstudio.com/
 
 Why VScode? It is the most simple IDE but at the same time it is the most powerful when extensions get added. Other IDEs have way too many buttons and you can easily get lost. In the end you can learn how to use python with just a commandline and a text file. But we don't want to be that extreme.
 
-### Python3.
+### Python3
 
 Just use Python 3 everywhere. Avoid Python 2
 Install: https://docs.python-guide.org/starting/install3/osx/
@@ -46,14 +46,14 @@ Install: https://docs.python-guide.org/starting/install3/osx/
 
 __NOTE Pipenv is not a neccesary tool, but like github it will avoid some pains in the future. You can ignore it for now since it is not neccesary but I find it important to know that it exists__
 
-Pipenv is a tool to make each project you work on have different libraries python libraries. Sometimes you can have two libraries. Say `csv-parser` and `csv-parser-3000` and they both use a different common library called `dictionary-handler-2000` but different versions. If you install both csv libraries at the system level they will both be stepping over each installing the different versions of `dictionary-handler-2000`. It is not strictly neccesary but I highly recommend it.
+Pipenv is a tool to make each project you work on have different python libraries without interfeering on the other libraries. Sometimes you can have two libraries. Say `csv-parser` and `csv-parser-3000` and they both use a different common library called `dictionary-handler-2000` but different versions. If you install both csv libraries at the system level they will both be stepping over each installing the different versions of `dictionary-handler-2000`. It is not strictly neccesary but I highly recommend it.
 
 https://pipenv.readthedocs.io/en/latest/#install-pipenv-today
 
 Usage will look like this. Open the VSCode terminal of the new project:
 
 ```
-$ pipenv shell
+pipenv shell
 ```
 
 That is it. Then you can `pip install <package-to-install>`
@@ -89,6 +89,9 @@ for gene in genes:
 ```
 
 If you get stuck: https://www.pythoncheatsheet.org/
+
+If you get the simple bedfile running then you will need more stuff to work on. I recommend you start looking at https://github.com/ossu/bioinformatics
+ for more information on what you need to do. I can always help with a problem if it is needed.
 
 ## Python Practice, practice, practice!
 

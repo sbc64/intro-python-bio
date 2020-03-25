@@ -8,7 +8,7 @@ This guides jumps straight into programming python and I hope it has enough to g
 
 Why python and not R? I think they are both great! They have incredibly strong support in bioinformatics. The only advantage I see with python is that you can use it for other programming areas that R might not be as good at such as machine learning. Learning either R or Python is not mutually exclusive. They are both similar in how to program. From my limited brief exposure to R, the main differences is that R has built in dataframes while with python you need to install the Pandas library to handle data frame.
 
-Also, from my view point you can learn either Python or R and be a proficient developer but Python will give better understanding in the long run about what is programming. This make spicking up R easier in the future.
+Also, from my view point you can learn either Python or R and be a proficient developer but Python will give you better understanding in the long run about what is programming. This makes learning R easier in the future.
 
 ## Github
 

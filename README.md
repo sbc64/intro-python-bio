@@ -1,6 +1,6 @@
 # Intro to python bio
 
-This document assumes you have no experience with python or the commandline and will hopefully get you up to speed. To get started with the nitty gritty go to: [Your first program!](#your-first-program) or read ["Introduction To Programming Using Python"](#books)
+This document assumes you have no experience with python or the commandline and will hopefully point you in the right direction. To get started with the nitty gritty go to: [Your first program!](#your-first-program) or read ["Introduction To Programming Using Python"](#books)
 
 This guides jumps straight into programming python and I hope it has enough to get someone started. You can safely skip the Github and Pipenv sections. I do recommend that to learn Python you find something you want to work on.
 

@@ -72,6 +72,8 @@ This will hopefully be the only way you interact with the terminal.
 
 Type in the terminal:
 
+
+NOTE: the # is the beggining of a comment of  a command. This means that anything after the # is ignored by the terminal
 ```
 git init # not neccesary if you don't have git
 pipenv shell # not neccesary if you don't have pipenv

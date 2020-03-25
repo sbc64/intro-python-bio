@@ -12,7 +12,7 @@ Also, from my view point you can learn either Python or R and be a proficient de
 
 ## Github
 
-__NOTE Github is not neccesary for you to learn python. But it will be helpful tool when you are working with more than two people. You can skip this part__
+__NOTE Github is not neccesary for you to learn python. But it will be helpful tool when you are working with more than two people. You can skip this part if you don't want to learn github__
 
 The first step is to make a github account: https://github.com/join?source=header-home
 

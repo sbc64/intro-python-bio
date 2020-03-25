@@ -6,7 +6,9 @@ This guides jumps straight into programming python and I hope it has enough to g
 
 ## Why python?
 
-Why python and not R? I think they are both great! They have incredibly strong support in bioinformatics. The only advantage I see with python is that you can use it for other programming areas that R might not be as good at such as machine learning.
+Why python and not R? I think they are both great! They have incredibly strong support in bioinformatics. The only advantage I see with python is that you can use it for other programming areas that R might not be as good at such as machine learning. Learning either R or Python is not mutually exclusive. They are both similar in how to program. From my limited brief exposure to R, the main differences is that R has built in dataframes while with python you need to install the Pandas library to handle data frame.
+
+Also, from my view point you can learn either Python or R and be a proficient developer but Python will give better understanding in the long run about what is programming. This make spicking up R easier in the future.
 
 ## Github
 
@@ -24,7 +26,6 @@ Following people allows you to  discover what they like and you might something 
 
 You should also download https://desktop.github.com/
 
-
 Why git?: 
 - https://programminghistorian.org/en/lessons/retired/getting-started-with-github-desktop
 
@@ -32,13 +33,13 @@ Why git?:
 
 ### IDE (Integrated development environment)
 
-Install https://code.visualstudio.com/
+Install VSCode: https://code.visualstudio.com/
 
 Why VScode? It is the most simple IDE but at the same time it is the most powerful when extensions get added. Other IDEs have way too many buttons and you can easily get lost. In the end you can learn how to use python with just a commandline and a text file. But we don't want to be that extreme.
 
 ### Python3.
 
-Just use python 3 everywhere. Avoid python2
+Just use Python 3 everywhere. Avoid Python 2
 Install: https://docs.python-guide.org/starting/install3/osx/
 
 ### Pipenv
@@ -48,6 +49,14 @@ __NOTE Pipenv is not a neccesary tool, but like github it will avoid some pains 
 Pipenv is a tool to make each project you work on have different libraries python libraries. Sometimes you can have two libraries. Say `csv-parser` and `csv-parser-3000` and they both use a different common library called `dictionary-handler-2000` but different versions. If you install both csv libraries at the system level they will both be stepping over each installing the different versions of `dictionary-handler-2000`. It is not strictly neccesary but I highly recommend it.
 
 https://pipenv.readthedocs.io/en/latest/#install-pipenv-today
+
+Usage will look like this. Open the VSCode terminal of the new project:
+
+```
+$ pipenv shell
+```
+
+That is it. Then you can `pip install <package-to-install>`
 
 ## Your first program!
 
@@ -87,13 +96,30 @@ https://exercism.io/tracks/python
 
 That website has a good list of challenges. It will help you get better with python over time and it is what I use.
 
+It won't help you become a super star in python overnight, but doing 30 minutes a day can help tremendously in the long run.
+
+## Bioinformatics
+
+### Useful python packages
+
+Data analysis is important so here is a list of useful packages:
+ - https://github.com/vinta/awesome-python#data-analysis
+
+Pandas is a python library that is the same to R's dataframes. So it is neccesary to easily onboard users from R to Python:
+
+Install by running this command in the terminal:
+
+```
+pip install pandas
+```
+
 ## More advanced topics and for you to get started on your own
 
  - https://github.com/danielecook/Awesome-Bioinformatics
-
  - https://github.com/ossu/bioinformatics
-
  - https://github.com/jtoy/awesome-tensorflow
+ - https://github.com/chapmanb/bcbb
+ - https://github.com/HussainAther/awesome-alternative-splicing
 
 ## Books 
 
@@ -120,3 +146,8 @@ I have these books and I can share them with you:
  - Introduction To Programming Using Python.pdf
  - Learn Python The Hard Way-Third Edition.pdf
  - Learning Python.pdf
+
+
+## TODO
+
+[ ] Add a better introduction to the terminal
